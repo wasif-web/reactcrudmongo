@@ -1,0 +1,119 @@
+/* App.css */
+
+/* Basic styling for the main container */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.alert {
+  background-color: #ffc107;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+/* Styling for the list of stories */
+h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.storyCard {
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+/* Styling for edit and delete buttons (Social Media Style) */
+button.edit-btn,
+button.delete-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: transparent;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-right: 10px;
+}
+
+button.edit-btn:hover,
+button.delete-btn:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Styling for search bar */
+.search-bar {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+input[type="search"] {
+  width: 200px;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button.search-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+}
+
+button.search-btn:hover {
+  background-color: #0056b3;
+}
